@@ -1,6 +1,10 @@
 html {
   font-size: 18px;
   font-family: Helvetica;
+
+}
+
+body {
   display: inline-flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -11,50 +15,50 @@ html {
   justify-content: flex-end;
 }
 
-header {
+
+header, main, .menu, .product-grid, .info, footer {
   display: inline-flex;
   flex-direction: column;
   margin: 0 auto;
 
 }
 
+
+
+header {
+
+
+}
+
+
 main {
-  display: inline-flex;
-  flex-direction: column;
-  margin: 0 auto;
+
 
 }
 
 .menu {
-  display: inline-flex;
-  flex-direction: column;
-  margin: 0 auto;
 
 }
 
 .product-grid {
-  display: inline-flex;
-  flex-direction: column;
-  margin: 0 auto;
+
 
 }
 
 .info {
-  display: inline-flex;
-  flex-direction: column;
-  margin: 0 auto;
+
 
 }
 
 footer {
-  display: inline-flex;
-  flex-direction: column;
-  margin: 0 auto;
+
 
 }
 
-.container {
-  max-width: 960px;
-  height: auto;
 
+
+.container {
+  width: 960px;
+  height: auto;
+  flex-shrink: 1;
 }
