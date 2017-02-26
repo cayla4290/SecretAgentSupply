@@ -53,6 +53,29 @@ header nav img {
   height: 25rem;
 }
 
+h1, h2 {
+    text-transform: uppercase;
+    text-transform: uppercase;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.text-box {
+  background-color: black;
+  width: 20rem;
+  top: 9rem;
+  position: relative;
+  padding: 2rem 3rem;
+}
+
+
+.text-box h1 {
+  padding-top: .25rem;
+  line-height: 2.25rem
+}
+
 .menu {
   background-color: firebrick;
 
