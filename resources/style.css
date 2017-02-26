@@ -1,7 +1,7 @@
 html {
   font-size: 18px;
   font-family: Helvetica;
-
+  color: white;
 }
 
 body {
@@ -26,11 +26,23 @@ header, .main-banner, .menu, .product-grid, .info, footer {
   align-items: center;
 }
 
-
-
 header {
   background-color: black;
+  text-transform: uppercase;
+}
 
+header .container {
+  display: inline-flex;
+  flex-direction: row;
+  margin: 0 auto;
+  align-items: center;
+  margin: .66rem 0;
+}
+
+header nav img {
+  height: 1.5rem;
+  margin-left: .5rem;
+  margin-right: 1rem;
 }
 
 .main-banner {
