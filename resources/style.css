@@ -172,7 +172,11 @@ h1 {
   background-color: black;
   width: 100%;
   height: auto;
-  /*padding: 1rem 2em;*/
+}
+
+.info > .container > div > div:first-child > p {
+  display: inline-block;
+  margin: 1rem 2em;
 }
 
 .details {
