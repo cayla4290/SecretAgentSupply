@@ -81,7 +81,7 @@ h1 {
 
 .text-box h1 {
   padding-top: .25rem;
-  line-height: 2.25rem
+  line-height: 2.25rem;
 }
 
 .menu {
@@ -265,6 +265,100 @@ footer > .container > div {
     height: 100%;
     width: auto;
     overflow: hidden;
+  }
+
+}
+
+@media only screen and (max-width: 470px) {
+
+  .main-banner {
+    height: 15rem;
+  }
+
+  .text-box {
+    background-color: black;
+    width: 100%;
+    height: auto;
+    top: 10rem;
+    position: relative;
+    padding: 1rem 2rem;
+  }
+
+  .text-box h1 {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  .text-box h2 {
+    font-size: 0.77rem;
+    font-weight: bold;
+
+  }
+
+  .product-grid > .container {
+    width: 100%;
+    height: 280px;
+    margin: 0;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    overflow: hidden;
+    flex
+  }
+
+  .product-grid > .container > div {
+    width: 90%;
+    height: auto;
+    border: 4px solid black;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .product-grid > .container > div > div > img {
+    height: 100%;
+    width: auto;
+    overflow: hidden;
+  }
+
+  .info > .container {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .info > .container > div {
+    width: 90%;
+    height: auto;
+    padding-bottom: 0.5rem;
+  }
+
+  .info > .container > div > div:first-child {
+    display: block;
+    background-color: black;
+    width: 100%;
+    height: auto;
+  }
+
+  .info > .container > div > div:first-child > p {
+    display: inline-block;
+    margin: 1rem 2em;
+  }
+
+  .details {
+    color: black;
+    padding-top: .2rem;
+  }
+
+  footer {
+    text-align: center;
   }
 
 }
