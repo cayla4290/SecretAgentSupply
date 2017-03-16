@@ -214,6 +214,13 @@ footer > .container > div {
 
 @media only screen and (max-width: 1024px) {
 
+  .container {
+    width: 100%;
+    height: auto;
+    flex-shrink: 1;
+    position: relative;
+  }
+
   .menu .container .link-list {
     display: none;
   }
@@ -226,6 +233,38 @@ footer > .container > div {
     justify-content: center;
     align-items: center;
     margin: .75rem 0;
+  }
+
+  .product-grid > .container {
+    width: 100%;
+    height: 280px;
+    margin: 0;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    overflow: hidden;
+    flex
+  }
+
+  .product-grid > .container > div {
+    width: 47%;
+    height: auto;
+    border: 4px solid black;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .product-grid > .container > div > div > img {
+    height: 100%;
+    width: auto;
+    overflow: hidden;
   }
 
 }
